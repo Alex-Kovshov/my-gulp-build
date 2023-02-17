@@ -1,0 +1,19 @@
+.h1{
+    color: rgb(89, 235, 52);
+    text-align: center;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    &__list {
+        color: #353030;
+        cursor: pointer;
+        transition: all .2s linear;
+    }
+    &__list:hover{
+        color:rgb(230, 245, 226)
+    }
+}

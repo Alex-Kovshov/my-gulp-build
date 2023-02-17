@@ -1,0 +1,45 @@
+/* body style*/
+.h1 {
+    color: rgb(89, 235, 52);
+    text-align: center;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list {
+    color: #353030;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.nav__list:hover {
+    color: rgb(230, 245, 226);
+}
+
+.hb {
+    color: #fff;
+    text-align: center;
+}
+
+.fh {
+    color: orange;
+    text-align: center;
+}
+
+body {
+    background-color: orangered;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}

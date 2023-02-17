@@ -1,0 +1,28 @@
+/* body style*/
+@import 'block/nav';
+@import 'block/body-code';
+@import 'block/footer';
+
+
+body {
+    background-color: orangered;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2rem;
+    
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+
+
+
+
+
+
+
